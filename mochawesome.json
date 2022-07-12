@@ -1,0 +1,332 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 9,
+    "passes": 9,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-07-12T17:44:22.188Z",
+    "end": "2022-07-12T17:46:49.202Z",
+    "duration": 147014,
+    "testsRegistered": 9,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "47fccea4-1277-4027-9b08-ffb3def9677c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\1-getting-started\\113 - BHA - Teste Completo.cy.js",
+      "file": "cypress\\e2e\\1-getting-started\\113 - BHA - Teste Completo.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "358e5758-13e8-4ab0-87e8-3b3b31544f00",
+          "title": "b1 - Teste 2e2 Casas Bahia - Pesquisa e Escolha",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "t1 - Visita site proposto",
+              "fullTitle": "b1 - Teste 2e2 Casas Bahia - Pesquisa e Escolha t1 - Visita site proposto",
+              "timedOut": null,
+              "duration": 18446,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.casasbahia.com.br/');\ncy.wait(2000);",
+              "err": {},
+              "uuid": "7c09a0b1-259c-478a-a846-08feb1444d8c",
+              "parentUUID": "358e5758-13e8-4ab0-87e8-3b3b31544f00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "t2 - Clica botão de cookie ",
+              "fullTitle": "b1 - Teste 2e2 Casas Bahia - Pesquisa e Escolha t2 - Clica botão de cookie ",
+              "timedOut": null,
+              "duration": 2201,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.cc-allow').click();",
+              "err": {},
+              "uuid": "42cca33a-340d-4052-ae58-e8109fb6c307",
+              "parentUUID": "358e5758-13e8-4ab0-87e8-3b3b31544f00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "t3 - Digitar termo de busca",
+              "fullTitle": "b1 - Teste 2e2 Casas Bahia - Pesquisa e Escolha t3 - Digitar termo de busca",
+              "timedOut": null,
+              "duration": 4369,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#search_label').type('iphone');\ncy.wait(3000);",
+              "err": {},
+              "uuid": "f61e11fd-9d93-4336-9ce1-d06255d86e2d",
+              "parentUUID": "358e5758-13e8-4ab0-87e8-3b3b31544f00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "t4 - Clica botão de pesquisa",
+              "fullTitle": "b1 - Teste 2e2 Casas Bahia - Pesquisa e Escolha t4 - Clica botão de pesquisa",
+              "timedOut": null,
+              "duration": 15192,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#btnOK').click();\ncy.wait(2000);",
+              "err": {},
+              "uuid": "9ac19eb9-1ddb-48b6-be64-f6e443bfa6a8",
+              "parentUUID": "358e5758-13e8-4ab0-87e8-3b3b31544f00",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "t5 - Busca produto específico",
+              "fullTitle": "b1 - Teste 2e2 Casas Bahia - Pesquisa e Escolha t5 - Busca produto específico",
+              "timedOut": null,
+              "duration": 11652,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('h2', 'iPhone 11 Apple 64GB branco').click();\ncy.wait(2000);",
+              "err": {},
+              "uuid": "4b6280a1-98f8-48e6-a2e1-59a162a302c2",
+              "parentUUID": "358e5758-13e8-4ab0-87e8-3b3b31544f00",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7c09a0b1-259c-478a-a846-08feb1444d8c",
+            "42cca33a-340d-4052-ae58-e8109fb6c307",
+            "f61e11fd-9d93-4336-9ce1-d06255d86e2d",
+            "9ac19eb9-1ddb-48b6-be64-f6e443bfa6a8",
+            "4b6280a1-98f8-48e6-a2e1-59a162a302c2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 51860,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "692f17d3-03b0-45c3-a221-57ba0036b97c",
+          "title": "b2 - Teste 2e2 Casas Bahia - Cálculo de Frete",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "t6 - Clica botão Comprar",
+              "fullTitle": "b2 - Teste 2e2 Casas Bahia - Cálculo de Frete t6 - Clica botão Comprar",
+              "timedOut": null,
+              "duration": 33203,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Funcionou colocando o produto diretamente no carrinho\ncy.get('.buy-button > .e1g87bf00 > .e5wsovx0').click(); // Clica no campo \"adicionar Seguro de Garantia Estendida\"\ncy.get('.styled-check__StyledCheck-t3ye3u-0').click();\ncy.wait(2000); // Clica no campo de \"sem garantia estendida\"\ncy.get('.sc-gfqkcP > :nth-child(1) > .sc-fmWebE > .styled__Container-e8qtbd-0 > .radio__Radio-sc-13mvjoi-0').click(); // Clica no botão de continuar para confirar \"sem garantia estendida\"\ncy.get('.sc-llYSUQ > .styled__StyledButton-sc-1marlud-0').click(); // Digita cep no campo de calculo de frete \ncy.get('[data-testid=\"input-cep\"]').type('09030350');\ncy.wait(2000); // Clica no botão de calcular frete \ncy.get('.sc-gWXbKe > .styled__StyledButton-sc-1marlud-0').click();\ncy.wait(2000); // Clica botão de Continuar compra\ncy.get('.sc-bXdNzS > .styled__StyledButton-sc-1marlud-0').click();\ncy.wait(2000); /// até o calculo de frete novamente e está ok e funcional",
+              "err": {},
+              "uuid": "3c1bf2ca-f858-4303-9c7e-ff093b17e1e1",
+              "parentUUID": "692f17d3-03b0-45c3-a221-57ba0036b97c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3c1bf2ca-f858-4303-9c7e-ff093b17e1e1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 33203,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "298df459-009f-408c-93d4-279117727a99",
+          "title": "b3 - Teste 2e2 Casas Bahia - Login, Compra e Opção de Entrega",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "t7 - Digita dados de Login",
+              "fullTitle": "b3 - Teste 2e2 Casas Bahia - Login, Compra e Opção de Entrega t7 - Digita dados de Login",
+              "timedOut": null,
+              "duration": 36569,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Digita cpf e clica botão de Continuar\ncy.get('#CpfCnpj').type('08838222029');\ncy.wait(2000);\ncy.get('#btnContinuarLogin').click();\ncy.wait(5000); // Digita senha\ncy.get('#Senha').focus().type('010577Sophi@');\ncy.wait(8000); // Clica no botão de Entrar \ncy.get('#btnLogin').click();\ncy.wait(4000); // Aceita oçpão de entrega\n// cy.get('#btSelecionarPagamento').click();\n// cy.wait(5000);\n// Aceita opção de entrega\ncy.get('#btSelecionarPagamento2').click();\ncy.wait(5000); // Até aqui funcional em 06/07/2022",
+              "err": {},
+              "uuid": "c0ec613c-3fda-4716-a780-0843d72e3a96",
+              "parentUUID": "298df459-009f-408c-93d4-279117727a99",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c0ec613c-3fda-4716-a780-0843d72e3a96"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 36569,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "fc6302d8-72ff-40fd-b9c8-f3feeee871ee",
+          "title": "b4 - Escolhe Tipo de Pagamento e Dados de Cartão",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "t8 - Escolha do Tipo de Pagamento Cartão de Crédito",
+              "fullTitle": "b4 - Escolhe Tipo de Pagamento e Dados de Cartão t8 - Escolha do Tipo de Pagamento Cartão de Crédito",
+              "timedOut": null,
+              "duration": 9390,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Digita número de cartão de crédito \ncy.get('#numeroCartao-cartao-novo-1').focus().type('5275506662796666');\ncy.wait(2000); // Digita nome do titular\ncy.get('#nomeTitular-cartao-novo-1').type('Machine Head Tropicalium');\ncy.wait(2000); // Ditia código se segurança\ncy.get('#cvv-cartao-novo-1').type('797'); //   Até aqui está funcional, alternancia entre código de validação,\n//  intencionalmente produzido para evitar identificação do teste pelo captcha.\n// , desta forma foi na parte final do teste, dividiu-se esta ultima parte em dois\n// , para facilitação da conclusão do teste.",
+              "err": {},
+              "uuid": "9a84f89b-1fda-4bc3-8554-39298e747e94",
+              "parentUUID": "fc6302d8-72ff-40fd-b9c8-f3feeee871ee",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9a84f89b-1fda-4bc3-8554-39298e747e94"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9390,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d3f6107f-bcc2-4aa9-a40f-4e6649accfab",
+          "title": "b5 - Digita dados de Validação e Finaliza Compra",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "t9 - Escolhe Mês e ano de Vencimento",
+              "fullTitle": "b5 - Digita dados de Validação e Finaliza Compra t9 - Escolhe Mês e ano de Vencimento",
+              "timedOut": null,
+              "duration": 11677,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Seleciona ano de vencimento do catão\ncy.get(\"#validadeMes-cartao-novo-1\").select('03');\ncy.wait(2000); // Seleciona validade do cartão\ncy.get(\"#validadeAno-cartao-novo-1\").select('2024');\ncy.wait(2000); // Seleciona quantidade de parcelas\ncy.get(\"#parcelamento-cartao-novo-1\").select('1x sem juros R$ 0,00');\ncy.wait(5000); // Clica checkpoint armazena cartão \ncy.get('#armazenar-cartao-novo-1');\ncy.wait(1000); // Clica no botão de Concluir Compra 2 \ncy.get('#btFinalizarCompraResumo2').focus().click(); // Finalização do teste foi concluida. Ao final do teste, fora\n// identificado que há um tipo de proteção que não deixa finalizar o pedido com Cartão de Crédito Fake\n// Após análise por outro analista com maior expertise, o mesmo identificou que o teste final está funcionando.\n// , porém o site proposto possui algum tip de mecanismo que não deixa produzir o parcelamento, nem a conclusão do pedido.\n// , desta forma, este final de teste foi intencionalmente deixado em vermelho para identificação do ocorrido.",
+              "err": {},
+              "uuid": "2168c304-09e4-4aa4-9e33-82268a37c2e0",
+              "parentUUID": "d3f6107f-bcc2-4aa9-a40f-4e6649accfab",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2168c304-09e4-4aa4-9e33-82268a37c2e0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11677,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
